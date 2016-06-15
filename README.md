@@ -287,4 +287,6 @@ chrome.runtime.onMessage.addListener(
 
 # 参考
 [LGTMでめでたさを伝えるChrome拡張をつくった](http://blog.monochromegane.com/blog/2013/12/23/lgtm-chrome-extension/)
+
+
 [Chromeのオリジナル拡張機能を開発しよう（ソースコードあり）](http://liginc.co.jp/web/tool/browser/163575)
