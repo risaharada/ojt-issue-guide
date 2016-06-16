@@ -1,28 +1,29 @@
 {
-  "manifest_version": "TODO",
-  "name": "TODO",
-  "description": "TODO",
-  "version": "TODO",
+  "manifest_version": 2,
+  "name": "Issue Guide",
+  "description": "GitHub Issue",
+  "version": "1.0",
   "icons": {
-    "48": "TODO"
+    "48": "images/icon48.png"
   },
   "browser_action": {
     "default_icon": {
-      "19": "TODO"
+      "19": "images/icon_19.png"
     },
-    "default_title": "TODO",
-    "default_popup": "TODO"
+    "default_title": "Issue Guide",
+    "default_popup": "./popup/index.html"
   },
-  "author": "TODO",
+  "author": "risacan",
   "content_scripts": [
     {
       "matches": [
-        "TODO"
+        "https://github.com/*/*/issues/new"
       ],
-      "js": ["TODO", "TODO"]
+      "js": ["./lib/jquery-3.0.0.min.js", "./backend/index.js"],
+      "run_at": "document_end"
     }
   ],
   "permissions": [
-    "TODO"
+    "tabs", "http://*/*", "https://*/*"
   ]
 }
