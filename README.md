@@ -249,7 +249,7 @@ Java Scriptを使うための準備をします。
 
 "popup/index.js"を次のように編集します。
 ```js
-ar tabId = 0;
+var tabId = 0;
 chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
   tabId = tabs[0].id
 });
