@@ -53,7 +53,7 @@ jsonの書き方がわからない方はこちらを参考にしましょう。
       "matches": [
         "https://github.com/*/*/issues/new"
       ],
-      "js": ["./lib/jquery-2.2.4.min.js", "./backend/index.js"]
+      "js": ["./lib/jquery-3.0.0.min.js", "./backend/index.js"]
     }
   ],
   "permissions": [
@@ -115,7 +115,7 @@ Extensionを適用させるURLのパターンを記述します。
 ## js
 Extensionで使用するjava scriptファイルへのパスを記述します。
 jQueryというライブラリと、開いているタブのDOMを操作するためのjsを指定しました。
-`"js": ["./lib/jquery-2.2.4.min.js", "./backend/index.js"]`
+`"js": ["./lib/jquery-3.0.0.min.js", "./backend/index.js"]`
 
 自分の書いたjsファイルと、jsのライブラリを区別するためにlibディレクトリとbackendディレクトリでファイルの置き場所を分けています。
 
@@ -151,7 +151,7 @@ popup(ブラウザ上のアイコンを押すと吹き出しのように表示�
   <head>
     <meta charset="utf-8">
     <title>Chrome Extension Example</title>
-    <script src="../lib/jquery-2.2.4.min.js"></script>
+    <script src="../lib/jquery-3.0.0.min.js"></script>
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
@@ -196,7 +196,7 @@ Extensionを実際にChromeに載せてみましょう
   <head>
     <meta charset="utf-8">
     <title>Chrome Extension Example</title>
-    <script src="../lib/jquery-2.2.4.min.js"></script>
+    <script src="../lib/jquery-3.0.0.min.js"></script>
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
@@ -235,7 +235,7 @@ Java Scriptを使うための準備をします。
   <head>
     <meta charset="utf-8">
     <title>Chrome Extension Example</title>
-    <script src="../lib/jquery-2.2.4.min.js"></script>
+    <script src="../lib/jquery-3.0.0.min.js"></script>
     <link rel="stylesheet" href="./index.css">
   </head>
   <body>
